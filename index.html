@@ -18,6 +18,12 @@ div {
 .img2 {
   float: right;
 }
+
+div#a {
+  border: 5px solid lightskyblue;
+  padding: 5px;
+  display: flow-root;
+}
 </style>
 </head>
 <body>
@@ -36,6 +42,16 @@ div {
  </p>
 
 <div class="clearfix">
+  <img class="img2" src="imgs/alicorn.jpg" alt="alicorn" width="170" height="170">
+  Here is a gorgeous flying unicorn anyone would be happy to have as a best friend...
+</div>
+
+
+<p style="clear:right">
+  A solution that is more modern to <i>clearfix</i> is adding <i>display: flowroot</i> :
+ </p>
+
+<div id="a">
   <img class="img2" src="imgs/alicorn.jpg" alt="alicorn" width="170" height="170">
   Here is a gorgeous flying unicorn anyone would be happy to have as a best friend...
 </div>
