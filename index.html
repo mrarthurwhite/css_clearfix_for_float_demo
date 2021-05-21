@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  border: 5px solid lightskyblue;
+  padding: 5px;
+}
+
+.img1 {
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.img2 {
+  float: right;
+}
+</style>
+</head>
+<body>
+
+<h2>Clearfix</h2>
+
+<p> The following example contains an image whose height is larger than the box surrounding it, hence the image overflows out of its box:</p>
+
+<div>
+  <img class="img1" src="imgs/alicorn.jpg" alt="alicorn" width="170" height="170">
+  Here is a gorgeous flying unicorn anyone would be happy to have as a best friend...
+</div>
+
+<p style="clear:right">
+  Now that we are adding <i>clearfix</i> class with <i>overflow:auto</i> as property & value the aforementioned concern is addressed:
+ </p>
+
+<div class="clearfix">
+  <img class="img2" src="imgs/alicorn.jpg" alt="alicorn" width="170" height="170">
+  Here is a gorgeous flying unicorn anyone would be happy to have as a best friend...
+</div>
+
+</body>
+</html>
